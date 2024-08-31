@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif;
+}
+
+
+header {
+    background-color: aqua;
+    height: 13vh;
+    width: 90vw;
+    padding: 0 5vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+#content {
+    height: 87vh;
+    width: 100vw;
+    background-color: brown;
+
+    display: grid;
+    align-items: center;
+}
+
+#main {
+    width: 80vw;
+    height: 80%;
+    background-color: blue;
+    margin: auto;
+}
+
+#head-text-home {
+    text-align: center;
+    color: white;
+    font-size: 54px;
+    font-weight: bold;
+    position: relative;
+    top: 30%;
+}
+
+.btn {
+    padding: 5px;
+    height: 13vh;
+    width: 10vw;
+}
