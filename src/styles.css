@@ -61,8 +61,27 @@ body {
     font-size: 3rem;
 }
 
+#home-page-logo {
+    font-size: 46px;
+    text-decoration: none;
+    color: white;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
 .btn {
     padding: 5px;
     height: 13vh;
     width: 10vw;
+    background-color: transparent;
+    border: 0;
+    font-size: larger;
+    color: white;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+.btn:hover {
+    border-right: 5px solid rgba(0, 0, 0, 0.45);
+    border-left: 5px solid rgba(0, 0, 0, 0.45);
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.55);
 }
