@@ -68,6 +68,7 @@ body {
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
+
 .btn {
     padding: 5px;
     height: 13vh;
@@ -84,4 +85,23 @@ body {
     border-left: 5px solid rgba(0, 0, 0, 0.45);
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.55);
+}
+
+
+/*
+Animation for content apperaing
+*/
+.fadeAnimation {
+    animation: fadeAnimation ease 1s;
+}
+
+@keyframes fadeAnimation {
+    0% {
+        opacity: 0;
+        top: 20%;
+    }
+    100% {
+        opacity: 1;
+        top: 0;
+    }
 }
