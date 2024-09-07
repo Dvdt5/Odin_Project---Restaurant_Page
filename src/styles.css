@@ -36,6 +36,7 @@ body {
     width: 80vw;
     height: 80%;
     margin: auto;
+    padding: 16px;
     
     border-radius: 50px;
     background-color: rgba(40, 40, 40, 0.5);
@@ -103,7 +104,45 @@ body {
     border-radius: 50px;
 }
 
-/* Classes */
+/* Menu Section */
+
+#menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    height: 100%;
+}
+
+.dish-card {
+    padding: 16px;
+    border-right: 1px solid white;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    &.dish-card:last-of-type{
+        border: 0;
+    }
+}
+
+.dish-card-header {
+    font-size: 36px;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+.dish-card-content {
+    font-size: 24px;
+}
+
+.dish-price {
+    font-size: 48px;
+    width: 120px;
+    padding: 16px;
+    background-color: rgb(112, 128, 144);
+    border-radius: 20px;
+    margin: auto;
+}
+
+/* Global Classes */
 
 .btn {
     padding: 5px;
