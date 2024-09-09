@@ -142,6 +142,50 @@ body {
     margin: auto;
 }
 
+/* Contact Section */
+
+#contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    height: 100%;
+    align-items: center;
+}
+
+#contact-info {
+    margin: auto;
+    font-size: 36px;
+    color: white;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+#message-form {
+    color: white;
+    font-size: 24px;
+    padding: 16px;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    text-align: center;
+}
+
+#name-input {
+    width: 90%;
+    padding: 8px;
+    font-size: large;
+}
+
+#message-input {
+    resize: none;
+    width: 90%;
+    min-height: 200px;
+}
+
+#send-contact-btn {
+    width: 70%;
+    font-size: 30px;
+    margin: auto;
+    margin: 8px;
+}
+
 /* Global Classes */
 
 .btn {
