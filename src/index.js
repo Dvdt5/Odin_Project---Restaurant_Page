@@ -32,4 +32,4 @@ contactButton.addEventListener("click", ()=> {
     mainContent.appendChild(contact());
 })
 
-//window.onload = ()=> mainContent.appendChild(home()); 
+window.onload = ()=> mainContent.appendChild(home()); 
